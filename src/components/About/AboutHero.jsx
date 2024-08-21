@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import Bio from "./Bio";
+import profileImage from "../../assets/profileImage.jfif";
 
 // Define animation variants and transition constants
 const titleVariants = {
@@ -29,10 +30,6 @@ const titleTransition = {
 const imageContainerTransition = {
   duration: 0,
 };
-
-// Profile Picture URL
-const imageURL =
-  "https://avatars.githubusercontent.com/u/79092651?s=400&u=7f95b754e55f350a431a89f6b8b5428c24a807bf&v=4";
 
 export default function AboutHero({ delay }) {
   const { t } = useTranslation("global");
@@ -65,12 +62,11 @@ export default function AboutHero({ delay }) {
           animate="visible"
           whileHover={imageHover}
           transition={imageTransition}
-          src={imageURL}
+          src={profileImage}
           alt="Profile"
           className="h-auto w-1/2 rounded-full"
         />
       </motion.div>
-
       <Bio />
     </>
   );

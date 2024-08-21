@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
-
-const imageURL =
-  "https://avatars.githubusercontent.com/u/79092651?s=400&u=7f95b754e55f350a431a89f6b8b5428c24a807bf&v=4";
+import profileImage from "../../assets/profileImage.jfif";
 
 const ImageSection = () => (
   <motion.div
@@ -16,7 +14,7 @@ const ImageSection = () => (
       animate={{ x: 0 }}
       whileHover={{ rotate: 360 }}
       transition={{ duration: 0.3 }}
-      src={imageURL}
+      src={profileImage}
       alt="Logo"
       className="h-auto w-1/2 rounded-full"
     />
