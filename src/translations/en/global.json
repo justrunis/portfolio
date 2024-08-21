@@ -1,0 +1,45 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  },
+  "home": {
+    "title": "Hi, my name is",
+    "name": "justrunis",
+    "description": "I'm a software developer based in Kaunas, Lithuania. I'm passionate about technology and I love to learn new things. I'm always looking for new challenges and opportunities to grow as a professional."
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Here are some of the projects I have made.",
+    "visit": "Visit project",
+    "visitRepository": "Visit repository",
+    "projectDescription1": "A virtual car showroom built with React",
+    "projectDescription2": "A quiz game built with React",
+    "projectDescription3": "A frontend interface for Wuthering Waves game API",
+    "projectDescription4": "A simple weather app built with React",
+    "projectDescription5": "Mobile app for saving places",
+    "projectDescription6": "Web app for finding recipes",
+    "projectDescription7": "Simple note taking application",
+    "projectDescription8": "Web app for finding products to buy or sell"
+  },
+  "about": {
+    "title": "About me",
+    "bio": "I am a passionate software developer with a strong interest in building responsive, user-friendly web applications. With experience in both frontend and backend development, I am comfortable working with a variety of technologies and frameworks. I am always eager to learn new things and take on new challenges. I am currently looking for opportunities to work on exciting projects and grow as a professional.",
+    "jobs": "Jobs",
+    "jobTitle": "Job Title",
+    "jobDescription": "Job Description",
+    "jobExperience": "Job Experience",
+    "jobTime": "Job Time",
+    "programmingSkills": "Programming Skills",
+    "jobTitle1": "Project technician",
+    "jobDescription1": "I am currently working in Kaunas university of technology as a project technician. I have to maintain and develop the MOODLE platform and other web applications.",
+    "jobExperience1": "Drupal and Moodle",
+    "jobTime1": "2023-06 - NOW"
+  }
+}

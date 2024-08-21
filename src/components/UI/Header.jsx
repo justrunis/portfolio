@@ -3,21 +3,28 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import NavLink from "./NavLink";
 import MobileMenu from "./MobileMenu";
 import { motion } from "framer-motion";
-import icon from "../../../public/icon.jpg";
+import icon from "/icon.jpg";
+import { useTranslation } from "react-i18next";
+import LanguageDropdown from "./LanguageDropdown";
+import i18n from "i18next";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const { t, i18n } = useTranslation("global");
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
+  const getLanguage = () => i18n.language.toUpperCase();
+
+  const handleChangeLanguage = (lng) => {
+    i18n.changeLanguage(lng.toLowerCase());
+    setIsDropdownOpen(false); // Close dropdown after language change
+  };
+
   return (
     <header className="bg-base-300 text-base-content p-4">
-      <motion.div
-        initial={{ y: -50 }}
-        animate={{ y: 0 }}
-        transition={{ duration: 0.5, ease: "easeInOut" }}
-        className="mx-5 flex justify-between items-center"
-      >
+      <div className="mx-5 flex justify-between items-center">
         {/* Logo */}
         <div className="flex flex-row  items-center gap-2 text-xl font-bold">
           <motion.img
@@ -27,7 +34,7 @@ export default function Header() {
             whileHover={{ rotate: 360 }}
             transition={{ duration: 0.3 }}
           />
-          <h2 className="inline-block ml-2">justrunis</h2>
+          <h2 className="inline-block ml-2">{t("home.name")}</h2>
         </div>
 
         {/* Hamburger Icon */}
@@ -48,13 +55,19 @@ export default function Header() {
               isMenuOpen ? "block" : "hidden"
             }`}
           >
-            <NavLink href="/">Home</NavLink>
-            <NavLink href="/about">About</NavLink>
-            <NavLink href="/projects">Projects</NavLink>
-            <NavLink href="/contact">Contact</NavLink>
+            <NavLink href="/">{t("header.home")}</NavLink>
+            <NavLink href="/about">{t("header.about")}</NavLink>
+            <NavLink href="/projects">{t("header.projects")}</NavLink>
+            <NavLink href="/contact">{t("header.contact")}</NavLink>
+            <LanguageDropdown
+              isDropdownOpen={isDropdownOpen}
+              toggleDropdown={() => setIsDropdownOpen(!isDropdownOpen)}
+              currentLanguage={getLanguage()}
+              handleChangeLanguage={handleChangeLanguage}
+            />
           </nav>
         )}
-      </motion.div>
+      </div>
 
       {/* Mobile Menu Dropdown */}
       <MobileMenu isOpen={isMenuOpen} onClose={toggleMenu} />

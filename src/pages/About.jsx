@@ -1,13 +1,22 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import Skills from "../components/About/Skills";
+import AboutHero from "../components/About/AboutHero";
+import Jobs from "../components/About/Jobs";
 
 export default function About() {
+  const { t } = useTranslation("global");
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
+      className="container mx-auto flex flex-col items-center justify-center bg-secondary text-secondary-content p-6 my-16 sm:border-4 sm:border-base rounded-lg shadow-lg xl:w-1/2"
     >
-      <h1 className="text-4xl font-bold text-center mt-8">About</h1>
+      <AboutHero delay={0.2} />
+      <Jobs delay={0.4} />
+      <Skills delay={0.6} />
     </motion.div>
   );
 }

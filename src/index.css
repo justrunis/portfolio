@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@font-face {
+    font-family: "Monstserrat";
+    src: local("Monstserrat-Regular"),
+    url("./assets/fonts/Monstserrat/Montserrat-Regular.ttf");
+}
+
+body {
+    font-family: "Monstserrat", sans-serif;
 }
