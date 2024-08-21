@@ -41,5 +41,12 @@
     "jobDescription1": "I am currently working in Kaunas university of technology as a project technician. I have to maintain and develop the MOODLE platform and other web applications.",
     "jobExperience1": "Drupal and Moodle",
     "jobTime1": "2023-06 - NOW"
+  },
+  "contact": {
+    "title": "Contact me!",
+    "description": "You can reach me at the following platforms:",
+    "github": "Github",
+    "linkedin": "LinkedIn",
+    "email": "Email"
   }
 }

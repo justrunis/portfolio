@@ -1,5 +1,9 @@
 export const skills = [
   {
+    name: "PHP",
+    iconURL: "https://simpleicons.org/icons/php.svg",
+  },
+  {
     name: "Drupal",
     iconURL: "https://simpleicons.org/icons/drupal.svg",
   },
