@@ -1,5 +1,59 @@
 {
   "header": {
-    "test": "Test"
+    "home": "Pagrindinis",
+    "about": "Apie mane",
+    "projects": "Projektai",
+    "contact": "Kontaktai",
+    "language": "Kalba"
+  },
+  "footer": {
+    "rights": "Visos teisės saugomos"
+  },
+  "home": {
+    "title": "Sveiki, mano vardas",
+    "name": "justrunis",
+    "description": "Esu programinės įrangos kūrėjas iš Kauno, Lietuvos. Mane žavi naujos technologijos bei mėgstu mokytis naujų dalykų. Visada ieškau naujų iššūkių ir galimybių tobulėti kaip profesionalas."
+  },
+  "projects": {
+    "title": "Projektai",
+    "description": "Čia yra keletas projektų, kuriuos sukūriau.",
+    "visit": "Aplankyti projektą",
+    "visitRepository": "Aplankyti saugyklą",
+    "projectDescription1": "Virtualus automobilių salonas sukurtas naudojant React",
+    "projectDescription2": "Viktorinos žaidimas sukurtas naudojant React",
+    "projectDescription3": "Vartotojo sąsaja Wuthering Waves žaidimo API",
+    "projectDescription4": "Paprasta orų programa sukurta naudojant React",
+    "projectDescription5": "Mobilioji programa vietoms išsaugoti",
+    "projectDescription6": "Žiniatinklio programa receptams rasti",
+    "projectDescription7": "Paprasta užrašų programa",
+    "projectDescription8": "Žiniatinklio programa prekių pirkimui ar pardavimui rasti"
+  },
+  "about": {
+    "title": "Apie mane",
+    "bio": "Esu programinės įrangos kūrėjas, turintis didelį susidomėjimą kurti reaguojančias, vartotojui patogias interneto programas. Turiu patirties tiek font-end, tiek back-end kūrimo dalyje ir esu susipažinęs su įvairiomis technologijomis ir struktūromis. Visada noriu mokytis naujų dalykų ir imtis naujų iššūkių. Šiuo metu ieškau galimybių dirbti su įdomiais projektais ir tobulėti kaip profesionalas.",
+    "jobs": "Darbo patirtis",
+    "jobTitle": "Pareigos",
+    "jobDescription": "Darbo aprašymas",
+    "jobExperience": "Darbo patirtis",
+    "jobTime": "Laikotarpis",
+    "programmingSkills": "Programavimo įgūdžiai",
+    "education": "Išsilavinimas",
+    "educationTitle1": "Bakalauro laipsnis Programų sistemose",
+    "educationTitle2": "Vidurinės mokyklos diplomas",
+    "educationTitle3": "Udemy 2024 m. WEB kursas",
+    "educationTitle4": "Udemy React - Išsamus vadovas",
+    "educationTitle5": "Udemy React Native - Praktinis vadovas",
+    "duration": "Trukmė",
+    "jobTitle1": "Projekto technikas",
+    "jobDescription1": "Šiuo metu dirbu Kauno technologijos universitete kaip projekto technikas. Prižiūriu ir plėtoju MOODLE platformą bei kitas interneto programas.",
+    "jobExperience1": "Drupal ir Moodle",
+    "jobTime1": "2023-06 - DABAR"
+  },
+  "contact": {
+    "title": "Susisiekite su manimi!",
+    "description": "Galite mane pasiekti šiose platformose:",
+    "github": "Github",
+    "linkedin": "LinkedIn",
+    "email": "El. paštas"
   }
 }

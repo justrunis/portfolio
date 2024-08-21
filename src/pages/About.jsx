@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import Skills from "../components/About/Skills";
 import AboutHero from "../components/About/AboutHero";
 import Jobs from "../components/About/Jobs";
+import Education from "../components/About/Education";
 
 export default function About() {
   const { t } = useTranslation("global");
@@ -15,8 +16,9 @@ export default function About() {
       className="container mx-auto flex flex-col items-center justify-center bg-secondary text-secondary-content p-6 my-16 sm:border-4 sm:border-base rounded-lg shadow-lg xl:w-1/2"
     >
       <AboutHero delay={0.2} />
-      <Jobs delay={0.4} />
-      <Skills delay={0.6} />
+      <Education delay={0.4} />
+      <Jobs delay={0.6} />
+      <Skills delay={0.8} />
     </motion.div>
   );
 }
