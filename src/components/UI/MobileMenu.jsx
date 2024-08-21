@@ -9,8 +9,6 @@ export default function MobileMenu({ isOpen, onClose }) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const { t, i18n } = useTranslation("global");
 
-  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-
   const getLanguage = () => i18n.language.toUpperCase();
 
   const handleChangeLanguage = (lng) => {
@@ -38,16 +36,16 @@ export default function MobileMenu({ isOpen, onClose }) {
           <FaTimes />
         </motion.button>
         <NavLink href="/" onClick={onClose}>
-          Home
+          {t("header.home")}
         </NavLink>
         <NavLink href="/about" onClick={onClose}>
-          About
+          {t("header.about")}
         </NavLink>
         <NavLink href="/projects" onClick={onClose}>
-          Projects
+          {t("header.projects")}
         </NavLink>
         <NavLink href="/contact" onClick={onClose}>
-          Contact
+          {t("header.contact")}
         </NavLink>
         <LanguageDropdown
           isDropdownOpen={isDropdownOpen}
