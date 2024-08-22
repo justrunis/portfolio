@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profileImage from "../../assets/profileImage.jfif";
+import profileImage from "../../assets/profileImage.jpg";
 
 const ImageSection = () => (
   <motion.div

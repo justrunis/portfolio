@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import Bio from "./Bio";
-import profileImage from "../../assets/profileImage.jfif";
+import profileImage from "../../assets/profileImage.jpg";
 
 // Define animation variants and transition constants
 const titleVariants = {
