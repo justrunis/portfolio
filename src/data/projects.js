@@ -331,4 +331,61 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 9,
+    title: "Cinema Hub",
+    description: "Fullstack website for finding movies",
+    websiteURL: "https://cinema-hub-gamma.vercel.app/",
+    projectImageURL:
+      "https://cinema-hub-gamma.vercel.app/assets/logo-no-background-CAr2oBZ8.png",
+    gitHubRepositoryURL: "https://github.com/justrunis/cinema-hub",
+    type: "Fullstack",
+    keywords: [
+      {
+        id: 1,
+        name: "React",
+        icon: "⚛️",
+      },
+      {
+        id: 2,
+        name: "ExpressJS",
+        icon: "🚀",
+      },
+      {
+        id: 3,
+        name: "DaisyUI",
+        icon: "🌼",
+      },
+      {
+        id: 4,
+        name: "MongoDB",
+        icon: "🗄️",
+      },
+      {
+        id: 5,
+        name: "Redux",
+        icon: "🔄",
+      },
+      {
+        id: 6,
+        name: "React Query",
+        icon: "🔄",
+      },
+      {
+        id: 7,
+        name: "JSON tokens",
+        icon: "🔒",
+      },
+      {
+        id: 8,
+        name: "Framer Motion",
+        icon: "🎞️",
+      },
+      {
+        id: 9,
+        name: "React Icons",
+        icon: "😀",
+      },
+    ],
+  },
 ];
