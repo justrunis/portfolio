@@ -388,4 +388,46 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 10,
+    title: "Letter Dash",
+    description: "Fullstack website for finding movies",
+    websiteURL: "",
+    projectImageURL:
+      "https://github.com/justrunis/letter-dash/blob/main/app/assets/splash-icon.png?raw=true",
+    gitHubRepositoryURL: "https://github.com/justrunis/letter-dash",
+    type: "Mobile",
+    keywords: [
+      {
+        id: 1,
+        name: "React Native",
+        icon: "⚛️",
+      },
+      {
+        id: 2,
+        name: "Expo",
+        icon: "🚀",
+      },
+      {
+        id: 3,
+        name: "ExpressJS",
+        icon: "🚀",
+      },
+      {
+        id: 4,
+        name: "MongoDB",
+        icon: "🗄️",
+      },
+      {
+        id: 5,
+        name: "JSON tokens",
+        icon: "🔒",
+      },
+      {
+        id: 6,
+        name: "React Icons",
+        icon: "😀",
+      },
+    ],
+  },
 ];

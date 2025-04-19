@@ -27,11 +27,12 @@
     "projectDescription6": "Web app for finding recipes",
     "projectDescription7": "Simple note taking application",
     "projectDescription8": "Web app for finding products to buy or sell",
-    "projectDescription9": "Fullstack website for finding movies"
+    "projectDescription9": "Fullstack website for finding movies",
+    "projectDescription10": "Mobile app/game built with React Native"
   },
   "about": {
     "title": "About me",
-    "bio": "I am a software developer with a strong interest in building responsive, user-friendly web applications. With experience in both frontend and backend development, I am comfortable working with a variety of technologies and frameworks. I am always eager to learn new things and take on new challenges. I am currently looking for opportunities to work on exciting projects and grow as a professional.",
+    "bio": "I am a software developer with a strong interest in building responsive, user-friendly web applications. With experience in both frontend and backend development, I am comfortable working with a variety of technologies and frameworks. I am always eager to learn new things and take on new challenges.",
     "jobs": "Jobs",
     "jobTitle": "Job Title",
     "jobDescription": "Job Description",
@@ -44,11 +45,16 @@
     "educationTitle3": "Udemy The Complete 2024 Web Development Bootcamp",
     "educationTitle4": "Udemy React - The Complete Guide",
     "educationTitle5": "Udemy React Native - The Practical Guide",
+    "educationTitle6": "NodeJS - The Complete Guide",
     "duration": "Duration",
     "jobTitle1": "Project technician",
-    "jobDescription1": "I am currently working in Kaunas university of technology as a project technician. I have to maintain and develop the MOODLE platform and other web applications.",
+    "jobDescription1": "I was working in Kaunas university of technology as a project technician. I had to maintain and develop the MOODLE platform and other web applications.",
     "jobExperience1": "Drupal and Moodle",
-    "jobTime1": "2023-06 - NOW"
+    "jobTime1": "2023-06 - 2025-04",
+    "jobTitle2": "Business application specialist",
+    "jobDescription2": "Currently i am working as a business application specialist in FESTO. I have to create business apps using SAP, BTP, ABAP and other technologies.",
+    "jobExperience2": "SAP, ABAP, BTP",
+    "jobTime2": "2025-04 - NOW"
   },
   "contact": {
     "title": "Contact me!",

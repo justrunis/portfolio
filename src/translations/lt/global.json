@@ -27,11 +27,12 @@
     "projectDescription6": "Žiniatinklio programa receptams rasti",
     "projectDescription7": "Paprasta užrašų programa",
     "projectDescription8": "Žiniatinklio programa prekių pirkimui ar pardavimui rasti",
-    "projectDescription9": "Fullstack svetainė skirta filmų paieškai"
+    "projectDescription9": "Fullstack svetainė skirta filmų paieškai",
+    "projectDescription10": "Mobilioji programa/žaidimas sukutras su React Native"
   },
   "about": {
     "title": "Apie mane",
-    "bio": "Esu programinės įrangos kūrėjas, turintis didelį susidomėjimą kurti reaguojančias, vartotojui patogias interneto programas. Turiu patirties tiek font-end, tiek back-end kūrimo dalyje ir esu susipažinęs su įvairiomis technologijomis ir struktūromis. Visada noriu mokytis naujų dalykų ir imtis naujų iššūkių. Šiuo metu ieškau galimybių dirbti su įdomiais projektais ir tobulėti kaip profesionalas.",
+    "bio": "Esu programinės įrangos kūrėjas, turintis didelį susidomėjimą kurti reaguojančias, vartotojui patogias interneto programas. Turiu patirties tiek font-end, tiek back-end kūrimo dalyje ir esu susipažinęs su įvairiomis technologijomis ir struktūromis. Visada noriu mokytis naujų dalykų ir imtis naujų iššūkių.",
     "jobs": "Darbo patirtis",
     "jobTitle": "Pareigos",
     "jobDescription": "Darbo aprašymas",
@@ -44,11 +45,16 @@
     "educationTitle3": "Udemy 2024 m. WEB kursas",
     "educationTitle4": "Udemy React - Išsamus vadovas",
     "educationTitle5": "Udemy React Native - Praktinis vadovas",
+    "educationTitle6": "NodeJS - Išsamus vadovas",
     "duration": "Trukmė",
     "jobTitle1": "Projekto technikas",
-    "jobDescription1": "Šiuo metu dirbu Kauno technologijos universitete kaip projekto technikas. Prižiūriu ir plėtoju MOODLE platformą bei kitas interneto programas.",
+    "jobDescription1": "Esu dirbęs Kauno technologijos universitete kaip projekto technikas. Darbė prižiūrėdavau ir plėtojau MOODLE platformą bei kitas interneto programas.",
     "jobExperience1": "Drupal ir Moodle",
-    "jobTime1": "2023-06 - DABAR"
+    "jobTime1": "2023-06 - 2025-04",
+    "jobTitle2": "Verslo Programų Specialistas",
+    "jobDescription2": "Šiuo metu dirbu kaip verslo programų specialistas įmonėje FESTO. Turiu kurti verslo programas naudodamas SAP, BTP, ABAP ir kitas technologijas.",
+    "jobExperience2": "SAP, ABAP, BTP",
+    "jobTime2": "2025-04 - DABAR"
   },
   "contact": {
     "title": "Susisiekite su manimi!",

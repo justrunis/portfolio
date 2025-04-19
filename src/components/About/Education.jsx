@@ -32,6 +32,11 @@ export default function Education({ delay }) {
       duration: "2024",
       icon: <GrCertificate />,
     },
+    {
+      title: t("about.educationTitle6"),
+      duration: "2025",
+      icon: <GrCertificate />,
+    },
   ];
 
   return (
@@ -44,8 +49,9 @@ export default function Education({ delay }) {
       <h2 className="text-2xl font-bold">{t("about.education")}</h2>
       <div className="grid grid-cols-2 gap-4 mt-4 sm:grid-cols-2">
         {educationItems.map((item, index) => (
-          <div
+          <motion.div
             key={index}
+            whileHover={{ scale: 1.05 }}
             className="flex flex-col items-center justify-around gap-4 bg-base-300 border-2 rounded-lg p-4"
             style={{ maxWidth: "400px" }} // Adjust the max width here
           >
@@ -56,7 +62,7 @@ export default function Education({ delay }) {
                 {t("about.duration")}: {item.duration}
               </p>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </motion.div>

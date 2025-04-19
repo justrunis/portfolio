@@ -34,6 +34,7 @@ export default function Skills({ delay }) {
         {skills.map((skill, index) => (
           <motion.div
             key={index}
+            whileHover={{ scale: 1.1 }}
             variants={itemVariants}
             className="flex flex-col items-center bg-base-300 p-4 rounded-lg shadow-md transform transition-transform hover:scale-105"
           >
